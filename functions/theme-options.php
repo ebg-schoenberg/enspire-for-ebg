@@ -746,7 +746,7 @@ Kirki::add_field( 'alx_theme', array(
 	'label'			=> esc_attr__( 'Create Social Links', 'enspire' ),
 	'description'	=> esc_attr__( 'Create and organize your social links', 'enspire' ),
 	'section'		=> 'social',
-	'tooltip'		=> esc_attr__( 'Font Awesome names:', 'enspire' ) . ' <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"><strong>' . esc_attr__( 'View All', 'enspire' ) . ' </strong></a>',
+	'tooltip'		=> esc_attr__( 'Font Awesome names:', 'enspire' ) . ' <a href="https://fontawesome.com/v4.7.0/icons/" target="_blank"><strong>' . esc_attr__( 'View All', 'enspire' ) . ' </strong></a>',
 	'row_label'		=> array(
 		'type'	=> 'text',
 		'value'	=> esc_attr__('social link', 'enspire' ),
@@ -763,7 +763,7 @@ Kirki::add_field( 'alx_theme', array(
 		'social-icon'	=> array(
 			'type'			=> 'text',
 			'label'			=> esc_attr__( 'Icon Name', 'enspire' ),
-			'description'	=> esc_attr__( 'Font Awesome icons. Ex: fa-facebook ', 'enspire' ) . ' <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"><strong>' . esc_attr__( 'View All', 'enspire' ) . ' </strong></a>',
+			'description'	=> esc_attr__( 'Font Awesome icons. Ex: fa-facebook ', 'enspire' ) . ' <a href="https://fontawesome.com/v4.7.0/icons/" target="_blank"><strong>' . esc_attr__( 'View All', 'enspire' ) . ' </strong></a>',
 			'default'		=> 'fa-',
 		),
 		'social-link'	=> array(
