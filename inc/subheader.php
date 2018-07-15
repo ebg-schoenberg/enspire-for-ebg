@@ -1,5 +1,6 @@
 <?php if ( is_home() && !is_paged() ): ?>
 
+<?php if ( get_theme_mod( 'header-social', 'on' ) == 'on' ): ?>
 <div id="subheader-social">
 	<div class="container group">
 		<div class="group pad pad-top">
@@ -7,6 +8,7 @@
 		</div>
 	</div>
 </div><!--/#subheader-social-->
+<?php endif; ?>
 
 <div class="container group">
 	<div class="group pad">

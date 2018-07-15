@@ -1,7 +1,7 @@
 /*
 Theme Name: Enspire
 Theme URI: http://alxmedia.se/themes/enspire/
-Version: 1.0.1
+Version: 1.0.2
 Description: <a href="http://alxmedia.se/themes/enspire/">Enspire</a> is a responsive 100% high resolution theme for blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. The feature list is long: Unlimited accent colors, unlimited widget areas, 0-2 sidebars to the left or right that can be uniquely specified for each page or post, 300px / 300px fixed width sidebars, 0-4 footer widget columns, almost zero layout images, related posts and post nav, featured story or slider, 5 post formats, good SEO, 3 flexible custom widgets, localisation support, social links, logo upload and many more useful admin panel features.
 Author: Alexander Agnarson
 Author URI: http://alxmedia.se
@@ -653,6 +653,35 @@ box-shadow: 0 1px 0 rgba(255,255,255,0.1); }
 .search-expand-inner { padding: 15px; }
 .search-expand .themeform input { width: 100%; border: 0; border-radius: 0; }
 .search-expand .themeform input:focus {  }
+
+/*  header : nav mobile
+/* ------------------------------------ */
+#nav-mobile.nav-container { background: transparent; }
+#nav-mobile .nav-toggle { background: transparent; color: #777;
+-webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.05);
+box-shadow: inset 1px 0 0 rgba(255,255,255,0.05); }
+#nav-mobile .nav-text { color: #999; }
+
+@media only screen and (max-width: 719px) {
+	
+	/* common */
+	#nav-mobile .container { padding-left: 0; }
+	#nav-mobile .nav li a { color: #777; border-top: 1px solid #eee; }
+	/* level 1 */
+	#nav-mobile .nav li > a:hover { background: rgba(0,0,0,0.06); color: #222; }
+	#nav-mobile .nav li.current_page_item > a, 
+	#nav-mobile .nav li.current-menu-item > a,
+	#nav-mobile .nav li.current-post-parent > a { background: rgba(0,0,0,0.06); color: #222; }
+	
+}
+
+/* hide and display */
+@media only screen and (min-width: 720px) {
+	.mobile-menu #nav-mobile { display: none; }
+}
+@media only screen and (max-width: 719px) {
+	.mobile-menu #nav-topbar { display: none; } 
+}
 
 /*  header : nav topbar
 /* ------------------------------------ */

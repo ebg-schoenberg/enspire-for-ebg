@@ -16,6 +16,7 @@
 
 	<header id="header" class="group">
 		
+		<?php if ( get_theme_mod( 'header-search', 'on' ) == 'on' ): ?>
 		<div class="container group">
 			<div class="group pad">
 				<div class="toggle-search"><i class="fa fa-search"></i></div>
@@ -26,11 +27,20 @@
 				</div>		
 			</div><!--/.pad-->
 		</div><!--/.container-->
-		
+		<?php endif; ?>
+
 		<div class="container group">
 			<div class="group pad">
 				<?php echo alx_site_title(); ?>
 				<?php if ( get_theme_mod('site-description','on') == 'on' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
+				
+				<?php if ( has_nav_menu('mobile') ): ?>
+					<nav class="nav-container group" id="nav-mobile">
+						<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+						<div class="nav-text"><!-- put your mobile menu text here --></div>
+						<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'mobile','menu_class'=>'nav group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>
+					</nav><!--/#nav-mobile-->
+				<?php endif; ?>
 				
 				<?php if ( has_nav_menu('topbar') ): ?>
 					<nav class="nav-container group" id="nav-topbar">
