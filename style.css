@@ -686,6 +686,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05); }
 /*  header : nav topbar
 /* ------------------------------------ */
 #nav-topbar.nav-container { background: transparent; float: right; margin-right: 28px; }
+.header-search-disable #nav-topbar.nav-container { margin-right: 0; }
 #nav-topbar .nav-toggle { background: transparent; color: #777;
 -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.05);
 box-shadow: inset 1px 0 0 rgba(255,255,255,0.05); }
@@ -709,6 +710,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.05); }
 	/* level 1 */
 	#nav-topbar .nav > li { border-right: none; margin-right: 4px; padding-bottom: 20px; font-size: 16px; text-transform: none;  }
 	#nav-topbar .nav > li:last-child { margin-right: 40px; } 
+	.header-search-disable #nav-topbar .nav > li:last-child { margin-right: 0; } 
 	#nav-topbar .nav > li > a { padding: 7px 14px 7px; border: 1px solid transparent; border-radius: 20px; }
 	#nav-topbar .nav > li > a:hover, 
 	#nav-topbar .nav > li:hover > a { background: transparent; color: #222; border-color: #eee; }
