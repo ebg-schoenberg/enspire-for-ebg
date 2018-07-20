@@ -1,6 +1,6 @@
 <?php 
-	$sidebar = alx_sidebar_primary();
-	$layout = alx_layout_class();
+	$sidebar = enspire_sidebar_primary();
+	$layout = enspire_layout_class();
 	if ( $layout != 'col-1c'):
 ?>
 	

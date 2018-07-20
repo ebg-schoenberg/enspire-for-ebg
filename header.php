@@ -31,7 +31,7 @@
 
 		<div class="container group">
 			<div class="group pad">
-				<?php echo alx_site_title(); ?>
+				<?php echo enspire_site_title(); ?>
 				<?php if ( get_theme_mod('site-description','on') == 'on' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 				
 				<?php if ( has_nav_menu('mobile') ): ?>
