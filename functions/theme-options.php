@@ -15,7 +15,6 @@ Kirki::add_config( 'enspire', array(
 Kirki::add_panel( 'options', array(
     'priority'    => 10,
     'title'       => esc_attr__( 'Theme Options', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 ) );
 
 /*  Add Sections
@@ -23,49 +22,41 @@ Kirki::add_panel( 'options', array(
 Kirki::add_section( 'general', array(
     'priority'    => 10,
     'title'       => esc_attr__( 'General', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 Kirki::add_section( 'blog', array(
     'priority'    => 20,
     'title'       => esc_attr__( 'Blog', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 Kirki::add_section( 'header', array(
     'priority'    => 30,
     'title'       => esc_attr__( 'Header', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 Kirki::add_section( 'footer', array(
     'priority'    => 40,
     'title'       => esc_attr__( 'Footer', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 Kirki::add_section( 'layout', array(
     'priority'    => 50,
     'title'       => esc_attr__( 'Layout', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 Kirki::add_section( 'sidebars', array(
     'priority'    => 60,
     'title'       => esc_attr__( 'Sidebars', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 Kirki::add_section( 'social', array(
     'priority'    => 70,
     'title'       => esc_attr__( 'Social Links', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 Kirki::add_section( 'styling', array(
     'priority'    => 80,
     'title'       => esc_attr__( 'Styling', 'enspire' ),
-    'description' => esc_attr__( '', 'enspire' ),
 	'panel'       => 'options',
 ) );
 
@@ -119,7 +110,6 @@ Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'radio',
 	'settings'		=> 'blog-layout',
 	'label'			=> esc_attr__( 'Blog Layout', 'enspire' ),
-	'description'	=> esc_attr__( '', 'enspire' ),
 	'section'		=> 'blog',
 	'default'		=> 'blog-standard',
 	'choices'		=> array(
@@ -738,7 +728,6 @@ Kirki::add_field( 'enspire_theme', array(
 		'social-target'	=> array(
 			'type'			=> 'checkbox',
 			'label'			=> esc_attr__( 'Open in new window', 'enspire' ),
-			'description'	=> esc_attr__( '', 'enspire' ),
 			'default'		=> false,
 		),
 	)
@@ -815,7 +804,6 @@ Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'radio',
 	'settings'		=> 'sidebar-padding',
 	'label'			=> esc_attr__( 'Sidebar Width', 'enspire' ),
-	'description'	=> esc_attr__( '', 'enspire' ),
 	'section'		=> 'styling',
 	'default'		=> '30',
 	'choices'		=> array(
@@ -828,7 +816,6 @@ Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-1',
 	'label'			=> esc_attr__( 'Primary Color', 'enspire' ),
-	'description'	=> esc_attr__( '', 'enspire' ),
 	'section'		=> 'styling',
 	'default'		=> '#1db954',
 ) );
@@ -837,7 +824,6 @@ Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-logo',
 	'label'			=> esc_attr__( 'Logo Background', 'enspire' ),
-	'description'	=> esc_attr__( '', 'enspire' ),
 	'section'		=> 'styling',
 	'default'		=> '#1db954',
 ) );
@@ -846,7 +832,6 @@ Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-bubble',
 	'label'			=> esc_attr__( 'Comments Bubble', 'enspire' ),
-	'description'	=> esc_attr__( '', 'enspire' ),
 	'section'		=> 'styling',
 	'default'		=> '#1db954',
 ) );
@@ -855,7 +840,6 @@ Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-footer',
 	'label'			=> esc_attr__( 'Footer Background', 'enspire' ),
-	'description'	=> esc_attr__( '', 'enspire' ),
 	'section'		=> 'styling',
 	'default'		=> '#1db954',
 ) );
