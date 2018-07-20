@@ -306,24 +306,6 @@ Kirki::add_field( 'enspire_theme', array(
 	'section'		=> 'header',
 	'default'		=> 'on',
 ) );
-// Header: Custom Logo
-Kirki::add_field( 'enspire_theme', array(
-	'type'			=> 'image',
-	'settings'		=> 'custom-logo',
-	'label'			=> esc_attr__( 'Custom Logo', 'enspire' ),
-	'description'	=> esc_attr__( 'Upload your custom logo image, 120px height recommended', 'enspire' ),
-	'section'		=> 'header',
-	'default'		=> '',
-) );
-// Header: Site Description
-Kirki::add_field( 'enspire_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'site-description',
-	'label'			=> esc_attr__( 'Site Description', 'enspire' ),
-	'description'	=> esc_attr__( 'The description that appears next to your logo', 'enspire' ),
-	'section'		=> 'header',
-	'default'		=> 'on',
-) );
 // Footer: Ads
 Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'switch',
@@ -903,21 +885,5 @@ Kirki::add_field( 'enspire_theme', array(
 		'min'	=> '0',
 		'max'	=> '15',
 		'step'	=> '1',
-	),
-) );
-// Styling: Body Background
-Kirki::add_field( 'enspire_theme', array(
-	'type'			=> 'background',
-	'settings'		=> 'body-background',
-	'label'			=> esc_attr__( 'Body Background', 'enspire' ),
-	'description'	=> esc_attr__( 'Set background color and/or upload your own background image', 'enspire' ),
-	'section'		=> 'styling',
-	'default'     => array(
-		'background-color'      => '',
-		'background-image'      => '',
-		'background-repeat'     => 'no-repeat',
-		'background-position'   => 'center center',
-		'background-size'       => 'cover',
-		'background-attachment' => 'fixed',
 	),
 ) );
