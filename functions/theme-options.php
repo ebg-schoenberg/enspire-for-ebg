@@ -92,15 +92,6 @@ Kirki::add_field( 'enspire_theme', array(
 ) );
 // General: Mobile Sidebar
 Kirki::add_field( 'enspire_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'mobile-sidebar-hide',
-	'label'			=> esc_attr__( 'Mobile Sidebar Content', 'enspire' ),
-	'description'	=> esc_attr__( 'Sidebar content on low-resolution mobile devices (320px)', 'enspire' ),
-	'section'		=> 'general',
-	'default'		=> 'on',
-) );
-// General: Mobile Sidebar
-Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'radio',
 	'settings'		=> 'mobile-sidebar-hide',
 	'label'			=> esc_attr__( 'Mobile Sidebar Content', 'enspire' ),
