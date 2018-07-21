@@ -96,6 +96,24 @@ Kirki::add_field( 'enspire_theme', array(
 		's1-s2'		=> esc_attr__( 'Hide both sidebars', 'enspire' ),
 	),
 ) );
+// General: Post Comments
+Kirki::add_field( 'alx_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'post-comments',
+	'label'			=> esc_attr__( 'Post Comments', 'enspire' ),
+	'description'	=> esc_attr__( 'Comments on posts', 'enspire' ),
+	'section'		=> 'general',
+	'default'		=> 'on',
+) );
+// General: Page Comments
+Kirki::add_field( 'alx_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'page-comments',
+	'label'			=> esc_attr__( 'Page Comments', 'enspire' ),
+	'description'	=> esc_attr__( 'Comments on pages', 'enspire' ),
+	'section'		=> 'general',
+	'default'		=> 'off',
+) );
 // General: Recommended Plugins
 Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'switch',
