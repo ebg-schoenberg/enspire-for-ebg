@@ -722,16 +722,6 @@ add_action('woocommerce_before_main_content', 'enspire_wc_wrapper_start', 10);
 add_action('woocommerce_after_main_content', 'enspire_wc_wrapper_end', 10);
 
 
-/*  Admin panel css
-/* ------------------------------------ */
-function enspire_admin_panel_css() {
-	echo '<style>
-.rwmb-image-select { width: auto!important; height: auto!important; }
-.rwmb-text { width: 100%; }
-	</style>';
-}
-add_action('admin_head', 'enspire_admin_panel_css');
-
 /* ------------------------------------------------------------------------- *
  *  Frontend scripts
 /* ------------------------------------------------------------------------- */	
