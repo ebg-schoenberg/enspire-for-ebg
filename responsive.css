@@ -14,7 +14,7 @@
 	.s2 .sidebar-toggle { display: block; }
 	
 	/* s2 expand/collapse */
-	.s2-expand .s2 { background: #eee url(img/pattern.png) repeat; position: absolute; top: 0; bottom: 0; width: 340px; margin: 0!important; z-index: 9; overflow: auto;
+	.s2-expand .s2 { background: #eee; position: absolute; top: 0; bottom: 0; width: 340px; margin: 0!important; z-index: 9; overflow: auto;
 	-moz-transition: width .2s ease; -webkit-transition: width .2s ease; transition: width .2s ease; }	
 	.s2-expand .s2 .sidebar-content { display: block; min-width: 340px; }
 	.s2-collapse .s2 .sidebar-content { display: none; }
@@ -64,7 +64,7 @@
 	.s1 .sidebar-toggle { display: block; }
 	
 	/* s1 expand/collapse */
-	.s1-expand .s1 { background: #eee url(img/pattern.png) repeat; position: absolute; top: 0; bottom: 0; width: 340px; margin: 0!important; z-index: 9; overflow: auto;
+	.s1-expand .s1 { background: #eee; position: absolute; top: 0; bottom: 0; width: 340px; margin: 0!important; z-index: 9; overflow: auto;
 	-moz-transition: width .2s ease; -webkit-transition: width .2s ease; transition: width .2s ease; }	
 	.s1-expand .s1 .sidebar-content,
 	.s1-expand .s1 .post-nav { display: block; min-width: 340px; }
