@@ -2,7 +2,7 @@
 Contributors: alxmedia
 Requires at least: 4.9
 Tested up to: 4.9
-Version: 1.0.4
+Version: 1.0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -63,7 +63,36 @@ Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
 Source: http://pixabay.com/
 
+Header images
+1. ID 642118 - https://pixabay.com/en/woman-photo-taking-picture-642118/ - CC0 1.0 Universal (CC0 1.0)
+2. ID 690230 - https://pixabay.com/en/grapes-bunch-fruit-person-holding-690230/ - CC0 1.0 Universal (CC0 1.0)
+3. ID 1139142 - https://pixabay.com/en/horse-horse-show-horse-head-1139142/ - CC0 1.0 Universal (CC0 1.0)
+4. ID 731142 - https://pixabay.com/en/person-blonde-girl-rock-above-731142/ - CC0 1.0 Universal (CC0 1.0)
+5. ID 1063100 - https://pixabay.com/en/fashion-woman-adult-beauty-model-1063100/ - CC0 1.0 Universal (CC0 1.0)
+6. ID 336581 - https://pixabay.com/en/home-office-workstation-macbook-air-336581/ - CC0 1.0 Universal (CC0 1.0)
+
+Content images
+1. ID 438467 - https://pixabay.com/en/car-race-ferrari-racing-car-pirelli-438467/ - CC0 1.0 Universal (CC0 1.0)
+2. ID 407108 - https://pixabay.com/en/smartphone-movie-taking-pictures-407108/ - CC0 1.0 Universal (CC0 1.0)
+
+Right sidebar 1 images
+1. ID 731140 - https://pixabay.com/en/rock-cliff-high-tableau-mountain-731140/ - CC0 1.0 Universal (CC0 1.0)
+2. ID 677779 - https://pixabay.com/en/blonde-girl-backlight-happy-summer-677779/ - CC0 1.0 Universal (CC0 1.0)
+3. ID 349790 - https://pixabay.com/en/musician-country-song-banjo-ukulele-349790/ - CC0 1.0 Universal (CC0 1.0)
+
+Right sidebar 2 images
+1. ID 642118 - https://pixabay.com/en/woman-photo-taking-picture-642118/ - CC0 1.0 Universal (CC0 1.0)
+2. ID 690230 - https://pixabay.com/en/grapes-bunch-fruit-person-holding-690230/ - CC0 1.0 Universal (CC0 1.0)
+3. ID 1139142 - https://pixabay.com/en/horse-horse-show-horse-head-1139142/ - CC0 1.0 Universal (CC0 1.0)
+4. ID 731142 - https://pixabay.com/en/person-blonde-girl-rock-above-731142/ - CC0 1.0 Universal (CC0 1.0)
+5. ID 1063100 - https://pixabay.com/en/fashion-woman-adult-beauty-model-1063100/ - CC0 1.0 Universal (CC0 1.0)
+6. ID 336581 - https://pixabay.com/en/home-office-workstation-macbook-air-336581/ - CC0 1.0 Universal (CC0 1.0)
+
+
 == Changelog ==
+
+= 1.0.5 - 2018-09-10 =
+* Added screenshot images to readme
 
 = 1.0.4 - 2018-09-08 =
 * Moved plugin territory features to companion plugin
