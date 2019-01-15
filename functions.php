@@ -73,7 +73,11 @@ if ( ! function_exists( 'enspire_setup' ) ) {
 		add_image_size( 'enspire-medium', 520, 245, true );
 		add_image_size( 'enspire-large', 720, 340, true );
 		add_image_size( 'enspire-square', 320, 320, true );
-
+		
+		// Thumbnail sizes custom widgets
+		add_image_size( 'alx-small', 160, 160, true );
+		add_image_size( 'alx-medium', 520, 245, true );
+		
 		// Custom menu areas
 		register_nav_menus( array(
 			'mobile' 	=> esc_html__( 'Mobile', 'enspire' ),
