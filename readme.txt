@@ -2,7 +2,7 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.0
-Version: 1.0.8
+Version: 1.0.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -90,6 +90,9 @@ Right sidebar 2 images
 
 
 == Changelog ==
+
+= 1.0.9 - 2019-01-18 =
+* Removed custom widgets from theme
 
 = 1.0.8 - 2019-01-15 =
 * Added custom image sizes for alx-posts and alx-tabs widgets (now loading from alx-extensions plugin instead)
