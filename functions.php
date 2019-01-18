@@ -80,6 +80,7 @@ if ( ! function_exists( 'enspire_setup' ) ) {
 		register_nav_menus( array(
 			'mobile' 	=> esc_html__( 'Mobile', 'enspire' ),
 			'topbar' 	=> esc_html__( 'Topbar', 'enspire' ),
+			'footer' 	=> esc_html__( 'Footer', 'enspire' ),
 		) );
 	}
 	
