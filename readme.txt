@@ -2,7 +2,7 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.0
-Version: 1.1.1
+Version: 1.1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -93,6 +93,12 @@ Right sidebar 2 images
 6. ID 336581 - https://pixabay.com/en/home-office-workstation-macbook-air-336581/ - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.1.2 - 2019-02-17 =
+* Updated to Kirki 3.0.36
+* Updated language file
+* Added customizer link to AlxMedia
+* Added customizer link to Theme Reviews
 
 = 1.1.1 - 2019-01-22 =
 * Removed outdated documentation files from the theme
