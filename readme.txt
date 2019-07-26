@@ -65,32 +65,32 @@ Source: https://github.com/aristath/kirki
 
 Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
-Source: http://pixabay.com/
+Source: https://stocksnap.io
 
 Header images
-1. ID 642118 - https://pixabay.com/en/woman-photo-taking-picture-642118/ - CC0 1.0 Universal (CC0 1.0)
-2. ID 690230 - https://pixabay.com/en/grapes-bunch-fruit-person-holding-690230/ - CC0 1.0 Universal (CC0 1.0)
-3. ID 1139142 - https://pixabay.com/en/horse-horse-show-horse-head-1139142/ - CC0 1.0 Universal (CC0 1.0)
-4. ID 731142 - https://pixabay.com/en/person-blonde-girl-rock-above-731142/ - CC0 1.0 Universal (CC0 1.0)
-5. ID 1063100 - https://pixabay.com/en/fashion-woman-adult-beauty-model-1063100/ - CC0 1.0 Universal (CC0 1.0)
-6. ID 336581 - https://pixabay.com/en/home-office-workstation-macbook-air-336581/ - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/23H66MTGXA - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/Y01VDYAX63 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/DGYLV0KMUY - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/UYYDN7X5IS - CC0 1.0 Universal (CC0 1.0)
+5. https://stocksnap.io/photo/UEQ0178WUT - CC0 1.0 Universal (CC0 1.0)
+6. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
 
 Content images
-1. ID 438467 - https://pixabay.com/en/car-race-ferrari-racing-car-pirelli-438467/ - CC0 1.0 Universal (CC0 1.0)
-2. ID 407108 - https://pixabay.com/en/smartphone-movie-taking-pictures-407108/ - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/RKS9M8PY0X - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
 
 Right sidebar 1 images
-1. ID 731140 - https://pixabay.com/en/rock-cliff-high-tableau-mountain-731140/ - CC0 1.0 Universal (CC0 1.0)
-2. ID 677779 - https://pixabay.com/en/blonde-girl-backlight-happy-summer-677779/ - CC0 1.0 Universal (CC0 1.0)
-3. ID 349790 - https://pixabay.com/en/musician-country-song-banjo-ukulele-349790/ - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/23H66MTGXA - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/Y01VDYAX63 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/DGYLV0KMUY - CC0 1.0 Universal (CC0 1.0)
 
 Right sidebar 2 images
-1. ID 642118 - https://pixabay.com/en/woman-photo-taking-picture-642118/ - CC0 1.0 Universal (CC0 1.0)
-2. ID 690230 - https://pixabay.com/en/grapes-bunch-fruit-person-holding-690230/ - CC0 1.0 Universal (CC0 1.0)
-3. ID 1139142 - https://pixabay.com/en/horse-horse-show-horse-head-1139142/ - CC0 1.0 Universal (CC0 1.0)
-4. ID 731142 - https://pixabay.com/en/person-blonde-girl-rock-above-731142/ - CC0 1.0 Universal (CC0 1.0)
-5. ID 1063100 - https://pixabay.com/en/fashion-woman-adult-beauty-model-1063100/ - CC0 1.0 Universal (CC0 1.0)
-6. ID 336581 - https://pixabay.com/en/home-office-workstation-macbook-air-336581/ - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/23H66MTGXA - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/Y01VDYAX63 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/DGYLV0KMUY - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/UYYDN7X5IS - CC0 1.0 Universal (CC0 1.0)
+5. https://stocksnap.io/photo/UEQ0178WUT - CC0 1.0 Universal (CC0 1.0)
+6. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
 
@@ -101,6 +101,7 @@ Right sidebar 2 images
 * Fixed themeforms styling issue
 * Updated language files
 * Removed Responsive Lightbox as recommended plugin
+* Updated theme screenshot and readme credits, now using images from stocksnap.io only
 
 = 1.1.3 - 2019-03-11 =
 * Updated to Kirki 3.0.38
