@@ -12,7 +12,7 @@
 			}
 		?>
 		<?php if ( get_theme_mod('format-icon','on') == 'on' ): ?>
-			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fa fa-icon"></i></a></div></div>
+			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fas fa-icon"></i></a></div></div>
 		<?php endif; ?>
 	</div>
 	
@@ -41,7 +41,7 @@
 		</div>
 		<?php endif; ?>
 		<?php if ( get_theme_mod('format-icon','on') == 'on' ): ?>
-			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fa fa-icon"></i></a></div></div>
+			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fas fa-icon"></i></a></div></div>
 		<?php endif; ?>
 	</div>
 	
@@ -58,7 +58,7 @@
 			} ?>
 		</div>
 		<?php if ( get_theme_mod('format-icon','on') == 'on' ): ?>
-			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fa fa-icon"></i></a></div></div>
+			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fas fa-icon"></i></a></div></div>
 		<?php endif; ?>
 	</div>
 	
@@ -75,7 +75,7 @@
 			}
 		?>
 		<?php if ( get_theme_mod('format-icon','on') == 'on' ): ?>
-			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fa fa-icon"></i></a></div></div>
+			<div class="square-icon"><div class="square-icon-inner"><a href="<?php echo get_post_format_link($format); ?>"><i class="fas fa-icon"></i></a></div></div>
 		<?php endif; ?>
 	</div>
 	
