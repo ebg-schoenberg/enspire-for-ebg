@@ -200,8 +200,7 @@ if ( ! function_exists( 'enspire_styles' ) ) {
 	
 	function enspire_styles() {
 		wp_enqueue_style( 'enspire-style', get_stylesheet_uri() );
-		if ( get_theme_mod('responsive','on') =='on' ) { wp_enqueue_style( 'enspire-responsive', get_template_directory_uri().'/responsive.css' ); }
-		if ( get_theme_mod('custom','off') == 'on' ) { wp_enqueue_style( 'enspire-custom', get_template_directory_uri().'/custom.css' ); }
+		wp_enqueue_style( 'enspire-responsive', get_template_directory_uri().'/responsive.css' );
 		wp_enqueue_style( 'enspire-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
 	

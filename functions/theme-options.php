@@ -81,24 +81,6 @@ Kirki::add_section( 'styling', array(
 /*  Add Fields
 /* ------------------------------------ */
 
-// General: Custom CSS
-Kirki::add_field( 'enspire_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'custom',
-	'label'			=> esc_html__( 'Custom Stylesheet', 'enspire' ),
-	'description'	=> esc_html__( 'Load custom stylesheet (custom.css)', 'enspire' ),
-	'section'		=> 'general',
-	'default'		=> 'off',
-) );
-// General: Responsive Layout
-Kirki::add_field( 'enspire_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'responsive',
-	'label'			=> esc_html__( 'Responsive Layout', 'enspire' ),
-	'description'	=> esc_html__( 'Mobile and tablet optimizations (responsive.css)', 'enspire' ),
-	'section'		=> 'general',
-	'default'		=> 'on',
-) );
 // General: Mobile Sidebar
 Kirki::add_field( 'enspire_theme', array(
 	'type'			=> 'radio',
