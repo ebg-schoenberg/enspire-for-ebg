@@ -113,10 +113,6 @@ if ( ! function_exists( 'enspire_dynamic_css' ) ) {
 
 a,
 .themeform label .required,
-#nav-topbar .nav li.current_page_item > a, 
-#nav-topbar .nav li.current-menu-item > a,
-#nav-topbar .nav li.current-menu-ancestor > a,
-#nav-topbar .nav li.current-post-parent > a,
 .post-hover:hover .post-title a,
 .post-title a:hover,
 .post-nav li a:hover i,
@@ -154,10 +150,6 @@ a,
 .toggle-search:hover,
 .toggle-search.active,
 .search-expand,
-#nav-topbar .nav > li.current_page_item > a, 
-#nav-topbar .nav > li.current-menu-item > a,
-#nav-topbar .nav > li.current-menu-ancestor > a,
-#nav-topbar .nav > li.current-post-parent > a,
 .post-tags a:hover,
 .author-bio .bio-avatar:after,
 .jp-play-bar, 
@@ -167,6 +159,11 @@ a,
 .commentlist li.comment-author-admin > .comment-body:after { background-color: '.esc_attr( get_theme_mod('color-1') ).'; }
 
 .alx-tabs-nav li.active a { border-color: '.esc_attr( get_theme_mod('color-1') ).'; }
+
+#header .nav-menu:not(.mobile) > div > ul > li.current_page_item > span, 
+#header .nav-menu:not(.mobile) > div > ul > li.current-menu-item > span, 
+#header .nav-menu:not(.mobile) > div > ul > li.current-menu-ancestor > span, 
+#header .nav-menu:not(.mobile) > div > ul > li.current-post-parent > span { background-color: '.esc_attr( get_theme_mod('color-1') ).'; border-color: '.esc_attr( get_theme_mod('color-1') ).'; }
 
 .widget > h3 > span,
 .comment-tabs li.active a,
