@@ -2,23 +2,28 @@
 
 <div class="content">
 	<div class="pad group">
-	
-		<?php get_template_part('inc/page-title'); ?>
 		
 		<?php while ( have_posts() ): the_post(); ?>
 		
-			<article <?php post_class('group'); ?>>
+			<article <?php post_class('group post-standard'); ?>>
 				
-				<?php get_template_part('inc/page-image'); ?>
-				
-				<div class="entry themeform">
-					<?php the_content(); ?>
-					<div class="clear"></div>
-				</div><!--/.entry-->
+				<div class="post-inner post-hover">
+					
+					<div class="post-content">
+							
+						<h2 class="post-title">
+							<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+						</h2><!--/.post-title-->
+						
+						<div class="entry excerpt">				
+							<?php the_content(); ?>
+						</div><!--/.entry-->
+					
+					</div><!--/.post-content-->
+					
+				</div><!--/.post-inner-->	
 				
 			</article>
-			
-			<?php if ( comments_open() || get_comments_number() ) :	comments_template( '/comments.php', true ); endif; ?>
 			
 		<?php endwhile; ?>
 		

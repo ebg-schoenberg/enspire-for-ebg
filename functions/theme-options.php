@@ -778,7 +778,7 @@ Kirki::add_field( 'enspire_theme', array(
 	'settings'		=> 'color-1',
 	'label'			=> esc_html__( 'Primary Color', 'enspire' ),
 	'section'		=> 'styling',
-	'default'		=> '#1db954',
+	'default'		=> '#05054f',
 ) );
 // Styling: Logo Background
 Kirki::add_field( 'enspire_theme', array(
@@ -786,7 +786,7 @@ Kirki::add_field( 'enspire_theme', array(
 	'settings'		=> 'color-logo',
 	'label'			=> esc_html__( 'Logo Background', 'enspire' ),
 	'section'		=> 'styling',
-	'default'		=> '#1db954',
+	'default'		=> '#ffffff',
 ) );
 // Styling: Comments Bubble
 Kirki::add_field( 'enspire_theme', array(
@@ -794,7 +794,7 @@ Kirki::add_field( 'enspire_theme', array(
 	'settings'		=> 'color-bubble',
 	'label'			=> esc_html__( 'Comments Bubble', 'enspire' ),
 	'section'		=> 'styling',
-	'default'		=> '#1db954',
+	'default'		=> '#05054f',
 ) );
 // Styling: Footer Background
 Kirki::add_field( 'enspire_theme', array(
@@ -802,7 +802,7 @@ Kirki::add_field( 'enspire_theme', array(
 	'settings'		=> 'color-footer',
 	'label'			=> esc_html__( 'Footer Background', 'enspire' ),
 	'section'		=> 'styling',
-	'default'		=> '#1db954',
+	'default'		=> '#05054f',
 ) );
 // Styling: Header Logo Max-height
 Kirki::add_field( 'enspire_theme', array(
