@@ -69,7 +69,7 @@
 						
 						<?php if ( get_theme_mod( 'credit', 'on' ) == 'on' ): ?>
 						<div id="credit">
-							<p>Angetrieben durch <a href="http://wordpress.org" rel="nofollow">WordPress</a>. Design von <a href="http://alx.media" rel="nofollow">Alx</a>.</p>
+							<p>Angetrieben durch <a href="http://wordpress.org" rel="nofollow">WordPress</a>. Design von <a href="http://alx.media" rel="nofollow">Alx</a>, mit <a href="https://github.com/ebg-schoenberg/enspire-for-ebg">Anpassungen</a> für das EBG.</p>
 						</div><!--/#credit-->
 						<?php endif; ?>
 						
