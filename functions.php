@@ -382,19 +382,8 @@ if ( ! function_exists( 'enspire_social_links' ) ) {
 /* ------------------------------------ */
 if ( ! function_exists( 'enspire_site_title' ) ) {
 
-	function enspire_site_title() {
-		
-		$custom_logo_id = get_theme_mod( 'custom_logo' );
-		$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-		
-		// Text or image?
-		if ( has_custom_logo() ) {
-			$logo = '<img src="'. esc_url( $logo[0] ) .'" alt="'.esc_attr( get_bloginfo('name')).'">';
-		} else {
-			$logo = esc_html( get_bloginfo('name') );
-		}
-		
-		$link = '<a href="'.esc_url( home_url('/') ).'" rel="home">'.$logo.'</a>';
+	function enspire_site_title() {		
+		$link = '<a href="'.esc_url( home_url('/') ).'" rel="home">' . esc_html( get_bloginfo('name') ) . '</a>';
 		
 		if ( is_front_page() || is_home() ) {
 			$sitename = '<h1 class="site-title">'.$link.'</h1>'."\n";
@@ -403,6 +392,24 @@ if ( ! function_exists( 'enspire_site_title' ) ) {
 		}
 		
 		return $sitename;
+	}
+	
+}
+
+if ( ! function_exists( 'enspire_site_logo' ) ) {
+
+	function enspire_site_logo() {
+		
+		$custom_logo_id = get_theme_mod( 'custom_logo' );
+		$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+		
+		// Image+Text or Text?
+		if ( has_custom_logo() ) {
+			return '<a href="'.esc_url( home_url('/') ).'" rel="home" class="site-logo"><div><img src="'. esc_url( $logo[0] ) .'" alt="'.esc_attr( get_bloginfo('name')).'"></div></a>';
+		}
+		else {
+			return '';
+		}
 	}
 	
 }

@@ -22,19 +22,17 @@
 
 	<header id="header" class="group">
 		
+		
 		<div class="container group">
 			<div class="group pad">
-				<?php echo enspire_site_title(); ?>			
+				<?php echo enspire_site_logo(); ?>
+				<?php echo enspire_site_title(); ?>
+				<?php if ( display_header_text() == true ): ?>
+					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+				<?php endif; ?>			
 			</div><!--/.pad-->
 		</div><!--/.container-->
 
-		<?php if ( display_header_text() == true ): ?>
-			<div class="container group">
-				<div class="group pad">
-					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-				</div><!--/.pad-->
-			</div><!--/.container-->
-		<?php endif; ?>			
 
 		<?php if ( get_theme_mod( 'header-search', 'on' ) == 'on' ): ?>
 			<div class="container group">
