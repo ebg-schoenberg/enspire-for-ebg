@@ -103,6 +103,14 @@ ol, ul { box-sizing: content-box; }
 .aligncenter { margin-left: auto; margin-right: auto; }
 hr { border: 0; background: #ddd; height: 3px; margin: 30px 0; }
 
+#page a {
+	text-decoration: underline;
+}
+
+#page h1 a, #page h2 a, #page h3 a, #page h4 a, #page h5 a, #page h6 a {
+	text-decoration: none !important;
+}
+
 /*  base : clear
 /* ------------------------------------ */
 .clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }

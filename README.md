@@ -20,7 +20,7 @@ In Wordpress wird bei der Verwendung dieses Themes für das EBG Schönberg folge
         - Font: Roboto Condensed, Latin-Ext
         - Website max-width: 1460px
         - Sidebar width: 280px
-        - Prim. color: #05054f (Color of links etc.)
+        - Prim. color: #050560 (Color of links etc.)
         - Logo background: #000
         - Comments bubble: #05054f (deactivated anyway)
         - Footer background: #0a2a73
